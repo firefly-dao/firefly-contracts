@@ -1,0 +1,60 @@
+{
+	"remappings": [
+		"@openzeppelin/=lib/openzeppelin-contracts/",
+		"@openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+		"solady/=lib/solady/",
+		"multicaller/=lib/Multicaller/",
+		"v2-core/=lib/v2-core/",
+		"v2-periphery/=lib/v2-periphery/",
+		"tstorish/=lib/tstorish/",
+		"permit2-firefly/=lib/permit2-firefly/",
+		"solmate/=lib/solmate/",
+		"@matterlabs/zksync-contracts/=/lib/v2-testnet-contracts/",
+		"@uniswap/v3-core/=lib/v3-core/",
+		"@uniswap/v2-core/=lib/v2-core/",
+		"0x-settler/=lib/0x-settler/",
+		"seaport-1.5/=lib/seaport-1.5/",
+		"trustlessPermit/=lib/trustlessPermit/",
+		"@rari-capital/solmate/=lib/seaport-1.5/lib/solmate/",
+		"Multicaller/=lib/Multicaller/src/",
+		"ds-test/=lib/seaport-1.5/lib/ds-test/src/",
+		"erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+		"forge-gas-snapshot/=lib/0x-settler/lib/forge-gas-snapshot/src/",
+		"forge-std/=lib/forge-std/src/",
+		"halmos-cheatcodes/=lib/openzeppelin-contracts-upgradeable/lib/halmos-cheatcodes/src/",
+		"murky/=lib/seaport-1.5/lib/murky/src/",
+		"openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+		"openzeppelin-contracts/=lib/openzeppelin-contracts/",
+		"permit2/=lib/0x-settler/lib/permit2/",
+		"seaport-core/=lib/seaport-core/src/",
+		"seaport-sol/=lib/seaport-sol/src/",
+		"seaport-types/=lib/seaport-1.5/lib/seaport-types/",
+		"seaport/=lib/seaport-1.5/contracts/",
+		"solarray/=lib/seaport-1.5/lib/solarray/src/",
+		"v3-core/=lib/v3-core/"
+	],
+	"optimizer": {
+		"enabled": false,
+		"runs": 200
+	},
+	"metadata": {
+		"useLiteralContent": false,
+		"bytecodeHash": "ipfs",
+		"appendCBOR": true
+	},
+	"outputSelection": {
+		"*": {
+			"*": [
+				"evm.bytecode",
+				"evm.deployedBytecode",
+				"devdoc",
+				"userdoc",
+				"metadata",
+				"abi"
+			]
+		}
+	},
+	"evmVersion": "cancun",
+	"viaIR": true,
+	"libraries": {}
+}
